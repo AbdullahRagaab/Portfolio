@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import profilePic from '../../public/abdullahPic.jpg';
+
 
 const Hero = () => {
   const handleDownloadCV = () => {
@@ -90,11 +92,7 @@ const Hero = () => {
               }}
               className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary-600 dark:border-primary-400 shadow-2xl"
             >
-              <img
-                src="/public/abdullahPic.jpg"
-                alt="Abdullah Ragab"
-                className="w-full h-full object-cover"
-              />
+              <img src={profilePic} />
             </motion.div>
             <motion.div
               animate={{
