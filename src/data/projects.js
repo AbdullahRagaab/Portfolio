@@ -17,8 +17,17 @@ export const projects = [
     demoLink: "https://abdullah-wallet.vercel.app",
     githubLink: "https://github.com/AbdullahRagaab/wallet-frontend",
   },
-  {
+    {
     id: 3,
+    title: "Movie & TV Shows App",
+    description: "Developed Filmorama Movie & TV Shows Web App, a responsive React & Vite frontend integrating TMDB API for real-time movie, TV show, and actor data, with Tailwind CSS, Zustand, React Router, and Chart.js for dynamic dashboards and interactive UI.",
+    image: "/toprate.png",
+    techStack: ["React", "Vite", "Tailwind CSS","PostCSS","Axios","Zustand ", "Lucide React" , "React Router","Chart.js","Framer Motion"],
+    demoLink: "https://abdullah-filmorama-app.vercel.app",
+    githubLink: "https://github.com/AbdullahRagaab/MovieApp",
+  },
+  {
+    id: 4,
     title: "Task Management System",
     description: "A modern, responsive task management system built with React, Tailwind CSS, and MockAPI. Supports user authentication, role-based access, CRUD operations for tasks, and team analytics.",
     image: "/task.jpg",
@@ -27,7 +36,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/Task-Manager-App",
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Commerce App",
     description: "A fully functional, modern E-Commerce web application built with React and Tailwind CSS. The application is fully responsive and optimized for both desktop and mobile devices, with integration to a REST API backend.",
     image: "/e-commerce.jpg",
@@ -36,7 +45,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/E-Commerce",
   },
   {
-    id: 5,
+    id: 6,
     title: "WorldWise App",
     description: "WorldWise is a small React application built with Vite that helps you explore cities and countries on an interactive map, view details, and manage a simple list of places. WorldWise is a lightweight demo app for discovering and managing city data, designed for learning and prototyping mapping + UI patterns in React.",
     image: "/worldwise.jpg",
@@ -45,7 +54,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/WorldWise",
   },
   {
-    id: 6,
+    id: 7,
     title: "Fast Pizza App",
     description: "This project is a front-end for a mock pizza shop. It shows a menu, lets users add items to the cart, create and update orders, and search for orders. It uses a tiny public API for menu and orders and a public reverse-geocoding service to resolve locations.",
     image: "/pizza.jpg",
@@ -53,4 +62,5 @@ export const projects = [
     demoLink: "https://abdullah-fastpizza.vercel.app",
     githubLink: "https://github.com/AbdullahRagaab/Fast-Pizza",
   },
+
 ];
