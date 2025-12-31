@@ -1,6 +1,33 @@
 export const projects = [
   {
     id: 1,
+    title: "Chat & Video Calling Platform",
+    description: "PolyChat – Fullstack Real-Time Chat & Video Calling Platform\nDeveloped a scalable full-stack web application that enables real-time messaging and high-quality video calls (1-on-1 & group). The platform includes secure JWT-based authentication, protected routes, global state management, customizable UI themes, and seamless real-time communication powered by Stream APIs. Built with modern frontend and backend technologies and optimized for cloud deployment.",
+    image: "/polychat.jpg",
+    techStack: ["React.js", "Vite", "Tailwind CSS", "DaisyUI", "React Router", "@tanstack/react-query", "Zustand", "Axios", "React Hot Toast", "Lucide React", "PostCSS", "ESLint", "Node.js", "Express.js", "MongoDB & Mongoose", "JWT Authentication", "Stream Chat API", "CORS", "Cookie-Parser", "dotenv"],
+    demoLink: "https://abdullah-polychat.vercel.app",
+    githubLink: "https://github.com/AbdullahRagaab/Fullstack-Chat-Video-Calling-Platform",
+  },
+  {
+    id: 2,
+    title: "Multilingual AI Voice Language Learning Platform",
+    description: "Multilingual AI Voice Language Learning Platform\nDeveloped an intelligent, voice-powered web application that enables real-time multilingual language learning through natural AI conversations. The platform supports dual learning modes (structured tutoring & free conversation), speech recognition, text-to-speech, pronunciation feedback, and secure authentication, delivering an immersive and responsive learning experience across devices.",
+    image: "/ai.jpg",
+    techStack: ["React.js", "TypeScript", "Vite", "Axios", "React Router", "React Hot Toast", "Lucide React", "Tailwind CSS", "DaisyUI", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT Authentication", "Stream Chat API", "Web Speech API", "Hugging Face Inference API", "bcryptjs", "CORS", "ESLint", "PostCSS", "date-fns"],
+    demoLink: "https://abdullah-multilingual.vercel.app",
+    githubLink: "https://github.com/AbdullahRagaab/FullStack-Multilingual-AI-Voice-Language-Learning",
+  },
+  {
+    id: 3,
+    title: "Digital Wallet App",
+    description: "Digital Wallet Full-Stack Application\nDeveloped a secure and scalable digital wallet system enabling users to manage financial transactions with role-based access control. The application features JWT-based authentication, protected APIs, transaction tracking, and a modern responsive dashboard built with a clean and intuitive user experience.",
+    image: "/wallet.jpg",
+    techStack: ["React.js", "TypeScript", "Vite", "React Router DOM", "Zustand", "Axios", "Tailwind CSS", "PostCSS", "Autoprefixer", "clsx", "ESLint", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "jsonwebtoken", "jwt-decode", "bcryptjs", "Helmet", "CORS", "express-rate-limit", "validator.js", "Morgan", "dotenv", "Nodemon"],
+    demoLink: "https://abdullah-wallet.vercel.app",
+    githubLink: "https://github.com/AbdullahRagaab/FullStack-Digital-Wallet",
+  },
+  {
+    id: 4,
     title: "Hotel Management System",
     description: "A modern single-page admin/dashboard application for managing a small hotel (The Wild Hotel). The app provides features for booking management, cabins, guest data, check-in/out, reporting, user authentication, and site settings. It integrates with Supabase for backend.",
     image: "/cabin-008.jpg",
@@ -8,17 +35,8 @@ export const projects = [
     demoLink: "https://abdullah-hotel.vercel.app",
     githubLink: "https://github.com/AbdullahRagaab/The-Wild-Hotel",
   },
-  {
-    id: 2,
-    title: "Digital Wallet App",
-    description: "A full-stack digital wallet application with secure authentication, transaction management, and modern responsive UI. Built with React, Node.js, Express, and MongoDB.",
-    image: "/wallet.jpg",
-    techStack: ["React","React Router","Zustand ","Axios","JWT","Node.js + Express","MongoDB","CORS"," responsive design ", "Tailwind CSS", "Vite"],
-    demoLink: "https://abdullah-wallet.vercel.app",
-    githubLink: "https://github.com/AbdullahRagaab/wallet-frontend",
-  },
     {
-    id: 3,
+    id: 5,
     title: "Movie & TV Shows App",
     description: "Developed Filmorama Movie & TV Shows Web App, a responsive React & Vite frontend integrating TMDB API for real-time movie, TV show, and actor data, with Tailwind CSS, Zustand, React Router, and Chart.js for dynamic dashboards and interactive UI.",
     image: "/toprate.png",
@@ -27,7 +45,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/MovieApp",
   },
   {
-    id: 4,
+    id: 6,
     title: "Task Management System",
     description: "A modern, responsive task management system built with React, Tailwind CSS, and MockAPI. Supports user authentication, role-based access, CRUD operations for tasks, and team analytics.",
     image: "/task.jpg",
@@ -36,7 +54,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/Task-Manager-App",
   },
   {
-    id: 5,
+    id: 7,
     title: "E-Commerce App",
     description: "A fully functional, modern E-Commerce web application built with React and Tailwind CSS. The application is fully responsive and optimized for both desktop and mobile devices, with integration to a REST API backend.",
     image: "/e-commerce.jpg",
@@ -45,7 +63,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/E-Commerce",
   },
   {
-    id: 6,
+    id: 8,
     title: "WorldWise App",
     description: "WorldWise is a small React application built with Vite that helps you explore cities and countries on an interactive map, view details, and manage a simple list of places. WorldWise is a lightweight demo app for discovering and managing city data, designed for learning and prototyping mapping + UI patterns in React.",
     image: "/worldwise.jpg",
@@ -54,7 +72,7 @@ export const projects = [
     githubLink: "https://github.com/AbdullahRagaab/WorldWise",
   },
   {
-    id: 7,
+    id: 9,
     title: "Fast Pizza App",
     description: "This project is a front-end for a mock pizza shop. It shows a menu, lets users add items to the cart, create and update orders, and search for orders. It uses a tiny public API for menu and orders and a public reverse-geocoding service to resolve locations.",
     image: "/pizza.jpg",
